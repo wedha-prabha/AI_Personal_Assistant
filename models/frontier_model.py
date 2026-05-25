@@ -13,15 +13,15 @@ model = genai.GenerativeModel(
 )
 
 def get_frontier_response(prompt):
-
+    
     try:
-
-        response=model.generate_content(
+        
+        response = model.generate_content(
             prompt
         )
-
+        
         return response.text
-
+        
     except Exception as e:
-
+        
         return f"Error: {str(e)}"
