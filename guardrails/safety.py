@@ -1,9 +1,8 @@
-blocked_words=[
+blocked_words = [
 
     "make bomb",
     "hack wifi",
-    "create malware",
-    "steal password"
+    "create malware"
 ]
 
 def check_safety(prompt):
