@@ -1,6 +1,7 @@
 streamlit
 transformers
 torch
+accelerate
 langchain
 langchain-community
 langchain-google-genai
